@@ -90,19 +90,28 @@ font-weight: normal;
     top: 250px;
 }
 
+
 .btn {
     position: relative;
-    display: block;
+    display: flex;
     top: 350px;
+    margin: auto;
     width: 217px;
 height: 64px;
-border-radius: 22px;
 background: #201C3A;
+border-radius: 22px;
+justify-content: space-evenly;
+align-items: center;
+font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
 color: white;
 }
 
 .btn:hover {
-    background-color:white;
+    background-color:transparent;
     color: #201C3A;
     border: 2px solid #201C3A;
 }
